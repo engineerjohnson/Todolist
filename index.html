@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="singUP none"></div>
+<div class="login">
+    <div class="logo">
+        <h1 ><a class="logo_text">ONLINE TODO LIST</a></h1>
+        <img class="logo_img" src="/todolist/img/img.png" alt="logo圖">
+    </div>
+    <div class="login_function">
+        <h2 class="login_function_text">最實用的線上代辦事項服務</h2>
+        <ul class="login_content"> 
+            <li><label for="login_email">email</label></li>
+            <li><input type="text" class="login_email" id="login_email" placeholder="請輸入email"></li>
+            <li><label for="login_password">密碼</label></li>
+            <li><input type="text" class="login_password" id="login_password" placeholder="請輸入密碼"></li>
+        </ul>
+    </div>
+    <div class="login_btn">
+        <input type="submit" value="登入" class="login_storage">
+        <a href="#" class="go_singUP_btn">註冊帳號</a>
+    </div>
+</div>
+<div class="todolist none"></div>
+
+
+
+
+<!-- 如果class的名稱有none則不會顯示此標籤內容 -->
+<style>.none{display: none;}</style>
+
+<script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+<script src="all.js"></script>
+</body>
+</html>

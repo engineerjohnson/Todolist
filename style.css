@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/earlyaccess/notosanstc.css");
+@import url("https://fonts.googleapis.com/css?family=Baloo+Tamma+2:600, 700");
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+input{
+	margin-bottom: 20px;
+	border-radius: 5px;
+}
+.login{
+	/* 登入 */
+position: relative;
+min-height: 100vh;
+background: #FFD370;
+}
+.logo_text{
+	/* Vector */
+	position: absolute;
+	left: 20.5%;
+	right: 0%;
+	top: 20%;
+	bottom: 0%;
+	background-image: url("/todolist/img/logo.png");
+	background-repeat: no-repeat;
+	width: 312px;
+	height: 47px;
+	display: block;
+	text-indent: 101%;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.logo_img{
+	position: absolute;
+width: 300px;
+height: 300px;
+left: calc(50% - 300px/2 - 205px);
+top: calc(50% - 300px/2 + 31px);
+}
+.login_function_text{
+	position: absolute;
+width: 400px;
+height: 35px;
+left: 550px;
+top: 113px;
+font-family: 'Noto Sans TC';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 35px;
+/* identical to box height */
+text-align: center;
+}
+.login_content{
+	position: absolute;
+	left: 610px;
+	top: 170px;
+	/* ↑相對定位的位置↑ */
+	font-family: 'Noto Sans TC';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 20px;
+}
+.login_password,.login_email{
+	width: 280px;
+	height: 25px;
+}
+.login_storage{
+	padding: 10px 35px;
+	position: absolute;
+	left: 700px;
+	top: 330px;
+	background-color: #333333;
+	color:aliceblue;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.login_storage:hover{
+	background-color: #4c4c4c;
+}
+.go_singUP_btn{
+	position: absolute;
+	left: 720px;
+	top: 390px;
+	cursor: pointer;
+	font-family: 'Noto Sans TC';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 23px;
+	text-decoration: none;
+	color: #333333;
+}
